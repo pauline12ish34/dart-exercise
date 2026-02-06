@@ -5,7 +5,7 @@ abstract class Registrable {
   void registerCourse(String courseName);
 }
 
-/// Q9: Student implements Registrable
+// Q9: Student implements Registrable
 class Student implements Registrable {
   String name;
   Student(this.name);
