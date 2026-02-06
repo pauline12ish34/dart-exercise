@@ -15,3 +15,8 @@ class Student implements Registrable {
     print('Student: $name, Course: $courseName.');
   }
 }
+
+void main() {
+  var student = Student('Amina');
+  student.registerCourse('Mathematics');
+}

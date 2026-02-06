@@ -17,6 +17,6 @@ class Student with NotificationMixin {
 }
 
 void main() {
-  var student = Student('Amina');
+  var student = Student('Pauline');
   student.registerCourse('Mathematics');
 }
